@@ -46,7 +46,7 @@ The best performing model was **Logistic Regression (Text + Features)**. Linear 
 * **Balanced Accuracy:** 0.929
 * **PR AUC (Class 0):** 0.934
 * *Tree-based models (such as XGBoost and Random Forest) demonstrated a high proneness to overfitting (the generalization gap was 11–13%).*
-<img width="1108" height="517" alt="Снимок экрана 2026-06-16 193953" src="https://github.com/user-attachments/assets/f579fcd2-f857-4b00-b9f2-d80bae967682" />
+<img width="5480" height="1481" alt="Logistic Regression (features)_plot" src="https://github.com/user-attachments/assets/731c1a7d-8d35-4e5d-a104-348d1a6ae2f1" />
 
 ### Meta-features
 
@@ -58,7 +58,7 @@ Analysis of the model coefficients revealed the most significant predictors:
 
 * **Positive Class:** `polarity`, `score_vader`, and slang tokens (`love`, `awesome`, `bomb`).
 * **Negative Class:** The negation particle `not` (preserved due to custom SpaCy cleaning), specific domain markers (`food`, `bland`, `greasy`, `overpriced`), and the `nrc_neg_norm` lexicon score.
-<img width="994" height="526" alt="Снимок экрана 2026-06-16 193915" src="https://github.com/user-attachments/assets/8ca7d006-ae54-4ccd-90ec-8e94133dde1e" />
+<img width="5895" height="3134" alt="high_res_plot" src="https://github.com/user-attachments/assets/07e3974c-8ada-44d0-a208-c72280d40d66" />
 
 ### Error Analysis
 
