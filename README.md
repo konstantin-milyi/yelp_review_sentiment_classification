@@ -1,5 +1,7 @@
 # Yelp Review Sentiment Analysis and Classification
 
+![hrp](data/reviews.png)
+
 A comprehensive NLP (Natural Language Processing) project designed to predict the sentiment of Yelp reviews (1 star vs. 5 stars) using a combination of text vectorization (TF-IDF) and engineered linguistic/semantic features.
 
 ## Objective
