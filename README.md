@@ -28,8 +28,8 @@ yelp_project/
 
 * **Text Processing:** `SpaCy` (lemmatization, custom negation preservation), `NLTK`, Regular Expressions.
 * **Feature Engineering:**
-* Structural metrics (word count, sentence count, punctuation density).
-* Semantic lexicons (`VADER`, `AFINN`, `Bing`, `NRC Emotion Lexicon`, `TextBlob`).
+  * Structural metrics (word count, sentence count, punctuation density).
+  * Semantic lexicons (`VADER`, `AFINN`, `Bing`, `NRC Emotion Lexicon`, `TextBlob`).
 
 
 * **Feature Selection:** `SmartCorrelatedSelection` (to eliminate multicollinearity) and `Sequential Feature Selection` (SFS).
